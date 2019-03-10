@@ -9,3 +9,8 @@ def line(katz_deli)
       puts line
    end
 end
+
+def take_a_number(katz_deli, person)
+   katz_deli.push(person)
+      puts "Welcome, #{person}. You are number #{katz_deli.size} in line."
+  end 
