@@ -9,4 +9,3 @@ def line(katz_deli)
       puts line
    end
 end
-
